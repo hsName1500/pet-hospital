@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #878a8a;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+body{
+  margin: 0 0 0 0;
+  font-family: "Arial","Helvetica","Microsoft YaHei","微软雅黑","微軟雅黑","宋体";
+  /* font-size: 12px; */
+  letter-spacing: 0px;
+  /* color: #878a8a; */
+  background-color: #fff;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none;
+}

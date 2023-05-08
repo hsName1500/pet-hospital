@@ -1,0 +1,17 @@
+.login-background {
+    background: linear-gradient(-180deg, #d7b57b 0%, #ffffff 100%);
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    /* position: absolute; */
+}
+
+    /* .login-background {
+        background-image: url('../../public/pic_001.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+    } */
+

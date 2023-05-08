@@ -1,0 +1,151 @@
+.aa {
+  width: 85%;
+  /* background-color: aqua; */
+  margin: 40px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-all {
+  background: linear-gradient(-180deg, #fff 0%,rgb(160, 156, 156) 40%, #e4e3e3 100%);
+}
+
+.aa-1 {
+  /* position: relative;  */
+  -webkit-transition: all 0.3s linear; /*渐变效果*/
+  transition: all 0.3s linear;
+  background-color: antiquewhite;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #fff;
+  cursor: pointer; 
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.aa-1:hover {
+  /* z-index: 2; 设置在顶层显示 */
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /*添加阴影*/
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0px, -20px, 0px); /*向上浮动*/
+  transform: translate3d(0px, -20px, 0);
+}
+
+.aa-1 > img {
+  width: 266px;
+  height: 266px;
+  border: none;
+  display: inline-block;
+}
+
+.m-goods-common-box {
+  /* padding-top: 13px; */
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.pro-info {
+  color: #333;
+  font-size: 16px;
+  line-height: 19px;
+  height: 23px;
+  margin-top: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pro-desc {
+  color: #666;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  margin-top: 8px;
+}
+
+.pro-price {
+  margin-top: 11px;
+  margin-bottom: 0;
+  height: 26px;
+  line-height: 26px;
+  color: #a92112;
+}
+
+.pro-unit {
+  font-size: 15px;
+}
+
+.m-num {
+  font-size: 22px;
+}
+
+.pro-flag {
+  font-size: 12px;
+}
+
+.consult {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  z-index: 10;
+  border-radius: 5px;
+}
+
+@keyframes im_icon {
+  0% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 5px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
+}
+
+.consult-1 {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  margin-bottom: 30px;
+}
+
+.consult > span {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  /* background-color: #ccc; */
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+.consult-1 > img {
+  cursor: pointer;
+  animation: im_icon 1s linear infinite;
+}
+
+.consult-1 > img:hover {
+  /* transform: scale(1.1); */
+
+  cursor: pointer;
+  animation: im_icon 1s linear infinite;
+}
+.closebtn{
+  margin-top: -29px;
+  position: relative;
+  left: 340px;
+  top:40px;
+  border-radius: 5px;
+  font-size: 15px;
+  z-index: 19;
+}
